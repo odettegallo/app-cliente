@@ -19,6 +19,15 @@
       "empresa": "hola2",
       "puesto": "hola2",
       "estado": 1
+    },
+    {
+      "id": "414e",
+      "nombre": "ODETTE",
+      "apellido": "Martínez",
+      "email": "odete@gmail.com",
+      "telefono": "989987448",
+      "empresa": "Ilustre Municipalidad de Quillota",
+      "estado": 1
     }
   ]
 }

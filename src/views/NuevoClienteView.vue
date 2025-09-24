@@ -60,7 +60,7 @@ const handleSubmit = (data) => {
                     :validation-messages="{ required: 'El Email del Cliente es obligatorio', email: 'El Email no es válido' }" />
 
                 <FormKit type="text" label="Telefono" name="telefono" placeholder="Telefono: XXX-XXX-XXX"
-                    validation="?matches:/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/"
+                    validation="?matches:/^[0-9]{9}$/"
                     :validation-messages="{ matches: 'El Telefono no es válido' }" />
 
                 <FormKit type="text" label="Empresa" name="empresa" placeholder="Empresa del Cliente" />

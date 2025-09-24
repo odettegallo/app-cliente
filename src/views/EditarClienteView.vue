@@ -78,7 +78,7 @@ const handleSubmit = (data) => {
                     v-model="formData.email" />
 
                 <FormKit type="text" label="Telefono" name="telefono" placeholder="Telefono: XXX-XXX-XXX"
-                    validation="?matches:/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/"
+                    validation="?matches:/^[0-9]{9}$/"
                     :validation-messages="{ matches: 'El Telefono no es válido' }"
                     v-model="formData.telefono"
                      />
